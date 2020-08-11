@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title>My Resume</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<link rel="stylesheet" href="css/bootstrap.css" />
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+</head>
+<body>
+	<!--header-->
+<div class="container-fluid">
+<div class="row">
+	<div class="col-md-3" id="header" >
+		<a href="#01"><img src="img/me.JPG" id="myphoto"></a>
+		<div id="nav">
+			<a href="#01">基本資料  Profile</a><br>
+			<a href="#02">教育背景  Educational</a><br>
+			<a href="#03">專業技能  Skills</li></a><br>
+			<a href="#04">專業證照  Certificate</a><br>
+		</div>
+	</div>
+<!--content-->
+	<div class="col-md-9 offset-md-3" id="content" >
+<!--1.profile-->
+		<p id="01"></p>
+		<div id="blank-10"></div>	
+		<div id="profile" class="div">
+			<p id="name">劉佩穎 &#160</p>
+			<p id="englishtitle">LIU,PEI-YING</p><br>
+			<hr class="hr">
+			<p id="narrative">簡短敘述</p>	
+			<div>
+				<a href="https://www.facebook.com/desb50129?ref=bookmarks"><img src="img/icon/facebook.png" id="icon"></a>
+				<a href="https://m.me/desb50129"><img src="img/icon/messenger.png" id="icon"></a>
+				<a href="https://www.instagram.com/kuei__81327/"><img src="img/icon/instagram.png" id="icon"></a>
+				<a href="https://www.youtube.com/channel/UC9T23NvajhafGbWWrw4W0gQ?view_as=subscriber"><img src="img/icon/youtube.png" id="icon"></a>
+				<a href="https://www.pinterest.com/a685288/"><img src="img/icon/pinterest.png" id="icon"></a>
+			</div>
+		</div>
+		<div id="blank-20"></div>	
+<!--2.educational-->
+		<p id="02"></p>
+		<div id="blank-10"></div>
+		<div id="educational" class="div">
+			<p id="title">教育背景 &#160&#160</p>
+			<p id="englishtitle">Educational</p>
+			<hr class="hr">
+			<div class="educational-div">
+				<div id="educational-div-left">
+					<p id="school">國立臺中科技大學 &#160</p>
+					<p id="eng-school">National Taichung University of Science and Technology</p>
+					<br>
+					<p id="school2">資訊管理系 </p><br>
+				</div>
+				<div id="time">2017.9-</div>
+				<div id="educational-div-left">
+					<p id="school">臺中市私立明德高級中學 &#160</p>
+					<p id="eng-school">Ming-Der Senior High School</p>
+					<br>
+					<p id="school2">美容科</p><br>
+				</div>
+				<div id="time">2014.9-2017.6</div>
+			</div>
+		</div>
+		<div id="blank-10"></div>
+<!--3.skills-->	
+		<p id="03"></p>
+		<div id="blank-10"></div>
+		<div id="skills" class="div">
+			<p id="title">專業技能 &#160&#160</p>
+			<p id="englishtitle">Skills</p>
+			<hr class="hr">
+			<div>
+				<div class="language">
+					<p>Web programming</p>
+					<img src="img/html.png">
+					<img src="img/css.png">
+					<img src="img/js.png">
+					<img src="img/bootstrap.png">
+				</div>
+				<div class="language">
+					<p>programming language</p>
+					<img src="img/c.png">
+					<img src="img/java.png">
+					<img src="img/asp.png">
+					<img src="img/3dsmax.png">
+				</div>
+			</div>
+		</div>
+		<div id="blank-20"></div>
+<!--4.certificate-->
+		<p id="04"></p>
+		<div id="blank-10"></div>
+		<div id="certificate" class="div">
+			<p id="title">專業證照 &#160&#160</p>
+			<p id="englishtitle">Certificate</p>
+			<hr class="hr">
+			<ul class="list-group list-group-flush">
+				<li class="list-group-item">ERP軟體應用師-配銷模組</li>
+				<li class="list-group-item">TOEIC多益（220-465分）</li>
+				<li class="list-group-item">美容丙級證照</li>
+				<li class="list-group-item">女子美髮丙級證照</li>
+			</ul>
+		</div>
+		<div id="blank-20"></div>
+	</div>
+</div>
+</div>
+</body>
+<script
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+<script>
+
+$(function() {
+
+$('a[href="#01"]').click(function() {
+
+    $('html,body').animate({
+
+      scrollTop:$('#01').offset().top
+
+    }, 'show');
+
+    return false;
+
+});
+
+$('a[href="#02"]').click(function() {
+
+    $('html,body').animate({
+
+      scrollTop:$('#02').offset().top
+
+    }, "show");
+
+    return false;
+
+});
+
+$('a[href="#03"]').click(function() {
+
+    $('html,body').animate({
+
+scrollTop:$('#03').offset().top
+
+    }, "show");
+
+    return false;
+
+});
+
+$('a[href="#04"]').click(function() {
+
+    $('html,body').animate({
+
+      scrollTop:$('#04').offset().top
+
+    }, "show");
+
+    return false;
+
+});
+
+
+
+}); 
+
+</script>
+</html>

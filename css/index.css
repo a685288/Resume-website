@@ -1,0 +1,130 @@
+@font-face{
+	font-family:  'Cairo';
+	src: url(../Cairo/Cairo-SemiBold.ttf) ;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Cairo';
+}
+#header{
+ 	height: 100%;
+ 	position: fixed;
+	background-image: url(../img/bg.JPG);
+	background-attachment: fixed;
+	background-size: contain;
+}
+#myphoto{
+	height: 140px;
+	border: 8px solid #F7C45F;
+	border-radius: 50%;
+	margin: 100px 0px 10px 100px;
+}
+#nav{ 
+	margin-left: 80px;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 22px;
+	font-weight: bold;
+	line-height:60px; 
+	list-style-type: none;
+}
+a:link,a:visited,a:hover,a:active{
+	text-decoration: none;
+	color: #fff;
+}
+hr.hr{
+    border-top: 5px solid #F7C45F;
+    position: relative;
+    top: -25px;
+}
+#name{
+	display:inline-table;
+	color: #D65353;
+	font-size: 80px;
+	font-weight:bold;
+}
+#title{
+	display:inline-table;
+	color: #D65353;
+	font-size: 50px;
+	font-weight:bold;
+}
+#englishtitle{
+	display:inline-table;
+	color: #304d63;
+	font-size: 50px;
+	font-weight:bold;
+}
+#blank-10{
+	height: 10%;
+}
+#blank-20{
+	height: 20%;
+}
+.div{
+	margin: 0px 30px;
+}
+#profile{
+	height: 60%;
+}
+#narrative{
+	color: #28364A;
+	line-height: 50px;
+	font-size: 20px;
+	position: relative;
+    top: -20px;
+}
+#icon{
+	border-radius: 50%;
+	margin:0px 10px; 
+	height: 60px;
+}
+.educational-div{
+	width: 100%
+}
+.educational-div>div{
+	display: inline-block;
+	height: 180px;
+}
+#educational-div-left{
+	width: 80%;
+}
+#school{
+	display:inline-table;
+	font-size: 30px;
+	font-weight: bold;
+}
+#eng-school{
+	font-size: 20px;
+	display:inline-table;
+	color: #808080;
+}
+#time{
+	position: absolute;
+	right: 60px;
+}
+#school2{
+	color: #808080;
+	font-size: 20px;
+}
+.language{
+	display: inline-block;
+	width: 49%;
+	padding: 0px 20px;
+}
+.language>img{
+	height: 70px;
+	margin: 0px 10px;
+}
+.language>p{
+	color: #7c564f;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 70px;
+}
+#certificate>ul{
+	font-size: 20px;
+	line-height: 40px;
+	width: 40%;
+}
